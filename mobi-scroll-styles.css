@@ -164,8 +164,8 @@ section {
   height: 100vh;
   width: 100vw;
 }
-
-.bg-img::before {
+/* ::before  cut github edit*/
+.bg-img {
   background-image: url(h2o480.png);
   background-attachment: fixed; 
   /*  position: fixed; */ /* this img with text everything on one plane */
