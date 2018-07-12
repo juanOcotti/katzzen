@@ -196,7 +196,7 @@ section {
  /*  background-position: left top; */
   display: inline-block;
   width: 100vw;
-  height: 100vh;
+  height: 50vh;
   transform: translateY(-100px);
   z-index: 1;
 }
