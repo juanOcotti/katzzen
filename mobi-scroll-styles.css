@@ -166,10 +166,6 @@ section {
 }
 /* ::before  cut github edit*/
 .bg-img {
-  background-image: url(h2o480.png);
-  background-attachment: fixed; 
-  background-position: left top;  /* this img with text everything on one plane */
- /*  background-size: cover; delete */
   display: inline-block; 
   width: 100vw;
   height: 100vh;  
@@ -177,7 +173,7 @@ section {
  left: 0;
  background-position: center;   */
   /* background-size: cover; */  /* git edit july11  cant do it*/
-  z-index: 1; }  /* -10 */
+  /* z-index: 1; */ }  /* -10 */
 
 /* insert h1 in container -text bkgd scroll*/
 .bg-img::before {
@@ -189,6 +185,21 @@ section {
   font-weight: 300;
   font-style: italic;
   z-index: 2; }
+
+.bg-img::after {
+  content:'';
+  background-image: url(h2o480.png);
+  background-attachment: fixed; 
+  background-position: left top;
+  display: inline-block;
+  width: 100vw;
+  height: 100vh;
+  
+  z-index: 1;
+}
+
+
+
 
 /* this works for img plcment too
  .bg-img1::after {
